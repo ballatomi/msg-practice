@@ -1,6 +1,8 @@
 package com.msg.practice.rest;
 
 import com.msg.practice.dto.TestDto;
+import javax.annotation.security.DenyAll;
+import javax.annotation.security.RolesAllowed;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
