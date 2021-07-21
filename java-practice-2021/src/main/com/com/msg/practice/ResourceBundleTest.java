@@ -9,13 +9,13 @@ import java.util.ResourceBundle;
  * @author ballat
  */
 
-public class LocaleExample {
+public class ResourceBundleTest {
     public static void main(String[] args) {
         Locale currentLocale;
         ResourceBundle messages;
         try {
-            //currentLocale = new Locale("fr", "FR");
-            currentLocale = new Locale(args[0], args[1]);
+            currentLocale = new Locale("fr", "FR");
+//            currentLocale = new Locale(args[0], args[1]);
         } catch (Exception e) {
             currentLocale = Locale.getDefault();
         }

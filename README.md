@@ -1,16 +1,7 @@
-# Tutorial JavaEE with wildfly
+# Tutorial JavaEE
 
-## 1. Generate project
+Exercise: Create a service in a Spring application, base on the com.msg.practice.ResourceBundleTest example.
+Requirements: 
+1. Based on a locale parameter should be returned the Message with the <key:value> pairs for the given locale.
+2. Return type - list of <key:value> pairs as JSON Objects.
 
-```
-$ mvn -DarchetypeGroupId=org.codehaus.mojo.archetypes -DarchetypeArtifactId=webapp-javaee7 -DgroupId=com.msg.practice 
--DartifactId=helloworld-wildfly -Dversion=1.1 -Dpackage=com.msg.practice -Darchetype.interactive=false --batch-mode --update-snapshots archetype:generate
-```
-
-## 2. Useful Links
-```
-$ mvn install wildfly:deploy
-```
-
-## 3. Useful Links
-https://www.tutorialspoint.com/ejb/index.htm
