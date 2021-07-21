@@ -1,0 +1,3 @@
+<jboss-web>
+    <context-root>resources/helloworld</context-root>
+</jboss-web>
