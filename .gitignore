@@ -30,4 +30,3 @@ hs_err_pid*
 **/.apt_generated
 **/.settings
 **/target
-**/dgrid
